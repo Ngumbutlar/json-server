@@ -1,9 +1,121 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "routes":{
+    "/posts/:id": "/posts?id=:id"
+  },
+  "posts":[
+    {
+      "id": 1,
+      "thumbnail": "/assets/images/image1.jpg",
+      "category": "Design",
+      "title": "UX Review Presentation",
+      "desc": {
+        "introduction": "In the fast-paced world of user experience (UX) design, presenting your findings and recommendations effectively is crucial to driving meaningful change and creating exceptional user experiences...",
+        "content": "The UX Review Presentation is a crucial step in the design process. It involves analyzing the user experience of a product or website and providing feedback and recommendations for improvement. During the presentation, the UX team presents their findings, which include usability issues, user feedback, and design suggestions. They may discuss the overall user flow, information architecture, visual design, and interaction patterns. The presentation aims to highlight both the strengths and weaknesses of the user experience, enabling stakeholders to make informed decisions and prioritize design changes. It often includes data-driven insights, such as user testing results, analytics, and user feedback surveys. The UX team showcases wireframes, prototypes, and visual mockups to illustrate their recommendations. The presentation is an opportunity for collaboration and alignment among stakeholders, designers, and developers. It fosters a shared understanding of the user experience goals and helps drive the design process forward. By incorporating feedback from the presentation, the design team can iterate and refine the product, ensuring a better user experience overall.",
+        "conclusion": "Crafting and delivering an effective UX review presentation requires a blend of storytelling, simplicity, visuals, and collaboration. By humanizing your content, understanding your audience, and inspiring change, you can elevate the impact of your UX insights and drive a user-centered design culture..."
+      },
+      "authorID": 3
+    },
+  
+    {
+      "id": 2,
+      "thumbnail": "/assets/images/image2.jpg",
+      "category": "Product",
+      "title": "Migrating to Linear 101",
+      "desc": {
+        "introduction": "Migrating to a new project management tool can be a daunting task, but with the right approach, it can also be an opportunity to streamline your workflow and increase productivity. In this blog post, we will explore the essentials of migrating to Linear 101 and provide you with a step-by-step guide to ensure a successful transition.",
+        "content":"Migrating to Linear 101 is an essential process for teams looking to transition from traditional project management tools to Linear, a modern and collaborative project tracking tool. This migration involves several key steps to ensure a smooth and successful transition. Firstly, it's important to evaluate the existing project management workflows and identify areas that can be improved with Linear's features and capabilities. This includes assessing the current task and issue tracking processes, team collaboration methods, and reporting requirements. Next, it's crucial to plan the migration strategy and timeline. This may involve mapping existing projects, tasks, and milestones to Linear's structure, setting up teams and permissions, and defining custom workflows and labels. Communication is vital during the migration process. It's essential to inform and involve all team members, providing them with training and resources to understand Linear's interface, functionality, and benefits. As part of the migration, data transfer is another critical aspect. This may include exporting data from the current project management tool and importing it into Linear, ensuring data integrity and preserving historical information. Testing and validation should be performed to verify the accuracy of the migrated data and ensure that everything is functioning as expected. Once the migration is complete, it's crucial to conduct a post-migration review to gather feedback, address any challenges, and identify areas for further optimization. Migrating to Linear 101 empowers teams with a streamlined and efficient project tracking system, enabling them to collaborate effectively, track progress, and deliver high-quality results.",
+        "conclusion": "Migrating to Linear 101 presents an opportunity to enhance your project management processes and boost team productivity. By assessing your current workflow, planning the migration carefully, preparing and importing your data, configuring Linear 101 to fit your needs, training your team, and monitoring progress, you can ensure a successful migration and reap the benefits of this powerful tool."
+      },
+      "authorID": 3
+    },
+  
+    {
+      "id": 3,
+      "thumbnail": "/assets/images/image3.jpg",
+      "category": "Software Engineering",
+      "title": "Building your API Stack",
+      "desc": {
+        "introduction": "Building a robust and scalable API stack is crucial for modern software development. An effective API stack enables seamless integration with external services, facilitates data exchange between different components of your application, and empowers developers to build innovative solutions. In this blog post, we will discuss the key considerations and best practices for building a powerful API stack.",
+        "content": "Building your API stack is a crucial aspect of modern software development. It involves selecting and integrating the right set of tools and technologies to create a robust and scalable API infrastructure. The first step is to identify the requirements of your project and determine the functionalities and capabilities your API needs to support. Next, you can choose the appropriate API gateway or management platform that aligns with your project's needs. This includes considering factors such as security, rate limiting, caching, and analytics. Once the API gateway is in place, you can focus on building the core APIs. This involves selecting a programming language or framework that best suits your project and leveraging libraries and frameworks to handle common API tasks such as routing, request handling, and serialization. Authentication and authorization are critical aspects of any API stack. You can choose from various authentication mechanisms such as API keys, OAuth, or JWT, depending on your project's requirements. Additionally, you'll need to implement authorization mechanisms to control access to different API resources. Testing and documentation are crucial for a successful API stack. You should include unit tests, integration tests, and contract tests to ensure the stability and reliability of your APIs. Proper documentation, including API reference documentation and interactive API documentation, will help developers understand and utilize your APIs effectively. Lastly, monitoring and observability are vital for maintaining and improving your API stack. Implementing logging, error tracking, and performance monitoring will help you identify and resolve issues promptly. Building your API stack requires careful consideration of all these aspects to ensure a robust, secure, and scalable solution that meets the needs of your project and its users.",
+        "conclusion": "Building a powerful API stack requires careful design, implementation, and security considerations. By designing well-defined APIs, implementing an API gateway, and ensuring strong security measures, you can create a scalable and reliable foundation for your application's integration capabilities. Continuously monitor and iterate on your API stack to adapt to changing requirements and deliver exceptional developer experiences."
+      },
+      "authorID": 3
+    },
+    {
+      "id": 4,
+      "thumbnail": "/assets/images/image4.jpg",
+      "category": "Management",
+      "title": "Bill Waish Leadership Lessons",
+      "desc": {
+        "introduction": "Bill Waish, a renowned business leader and visionary, has inspired many with his remarkable leadership approach. In this blog post, we will explore some of the key leadership lessons we can learn from Bill Waish's journey and apply to our own leadership endeavors.",
+        "content": "Bill Waish, a renowned leader and visionary, has imparted invaluable leadership lessons throughout his career. One of the key lessons is the importance of leading by example. Bill believes that leaders should set high standards for themselves and demonstrate the behavior and qualities they expect from their team members. By modeling the desired traits, leaders inspire and motivate their teams to follow suit. Another crucial lesson from Bill is the significance of effective communication. He emphasizes the need for clear, open, and transparent communication to foster trust, alignment, and collaboration within the team. Bill encourages leaders to actively listen to their team members, provide timely and constructive feedback, and ensure that everyone has a voice. Additionally, Bill emphasizes the importance of continuous learning and personal growth. He believes that leaders should embrace a growth mindset, constantly seek new knowledge, and encourage their team members to do the same. By investing in personal and professional development, leaders can stay ahead of the curve and adapt to evolving challenges. Lastly, Bill highlights the significance of empathy and emotional intelligence in leadership. He believes that leaders should show empathy towards their team members, understand their unique perspectives and challenges, and create a supportive and inclusive work environment. By fostering a culture of empathy and emotional intelligence, leaders can build strong relationships, boost morale, and drive team performance. Bill Waish's leadership lessons provide valuable insights and guidance for aspiring and seasoned leaders alike, empowering them to lead with integrity, inspire their teams, and achieve remarkable results.",
+        "conclusion": "Bill Waish's leadership lessons emphasize the importance of leading by example, embracing innovation, and empowering others. By incorporating these principles into our own leadership journeys, we can inspire our teams, drive positive change, and create a lasting impact in our organizations and beyond."
+      },
+      "authorID": 3
+    },
+
+    {
+      "id": 5,
+      "thumbnail": "/assets/images/image5.jpg",
+      "category": "Product",
+      "title": "PM mental models",
+      "desc": {
+        "introduction": "Product Managers (PMs) face complex challenges on a daily basis, requiring them to make informed decisions and drive successful outcomes. Adopting effective mental models can provide PMs with a structured approach to problem-solving and decision-making. In this blog post, we will explore four powerful mental models that can enhance the capabilities of Product Managers.",
+        "content": "PM mental models are powerful frameworks that help product managers navigate complex problems and make effective decisions. One essential mental model is the 'Jobs to be Done' framework, which focuses on understanding the underlying motivation and desired outcomes of users when using a product or service. By identifying and addressing the core job that users are trying to accomplish, product managers can design solutions that truly meet user needs. Another crucial mental model is the 'Pareto Principle' or the 80/20 rule. It suggests that roughly 80% of the outcomes come from 20% of the causes. Applying this principle, product managers can prioritize their efforts and resources on the most impactful features or improvements that will deliver the greatest value to users. The 'Sunk Cost Fallacy' is another mental model that product managers should be aware of. It warns against making decisions based on past investments or sunk costs, as it can lead to poor choices. Instead, product managers should focus on future value and objectively evaluate the potential benefits and costs of different options. Additionally, the 'MVP' or Minimum Viable Product is a mental model that encourages product managers to release an initial version of a product with the minimum set of features required to gather user feedback and validate assumptions. This iterative approach helps mitigate risks and refine the product based on real user insights. These are just a few examples of PM mental models, and there are many more that can provide valuable perspectives and frameworks for product managers to excel in their roles. By incorporating these mental models into their decision-making process, product managers can enhance their strategic thinking, problem-solving abilities, and overall effectiveness in delivering successful products.",
+        "conclusion": "Adopting powerful mental models can equip Product Managers with valuable frameworks for problem-solving and decision-making. By leveraging the 80/20 Rule, applying First Principles Thinking, navigating the Ladder of Inference, and embracing Systems Thinking, PMs can approach their roles with a structured and strategic mindset, driving successful outcomes and delivering impactful products."
+      },
+      "authorID": 3
+    },
+
+    {
+      "id": 6,
+      "thumbnail": "/assets/images/image6.jpg",
+      "category": "Design",
+      "title": "What is Wireframing",
+      "desc": {
+        "introduction": "Wireframing is a fundamental step in the design process that enables the visual representation of a digital product's structure and layout. It serves as a blueprint for designers, developers, and stakeholders, providing a clear and tangible outline of the product's functionality and user interface. In this blog post, we will delve into the concept of wireframing and explore its importance in the design and development of digital products.",
+        "content": "Wireframing is a fundamental step in the design process that involves creating a visual representation of a digital product's structure and layout. It serves as a blueprint or a skeletal framework that outlines the key elements and functionalities of a user interface without getting into specific visual details. Wireframes are typically low-fidelity and focus on the arrangement of elements, navigation flow, and overall user experience. They are often created using simple shapes, lines, and placeholder text to convey the basic structure and functionality of the product. Wireframes help designers, developers, and stakeholders to align their understanding of the product and its features early in the design process. They provide a clear and concise visualization of the product's layout, allowing for quick iterations and refinements before investing significant time and resources into detailed design and development. Wireframing enables teams to identify potential usability issues, establish information hierarchy, and test different interaction patterns without the distraction of visual aesthetics. It also facilitates effective communication and collaboration among team members, ensuring a shared vision and reducing the risk of misunderstandings. Overall, wireframing plays a crucial role in the design process, enabling designers to create user-centered and intuitive digital experiences while minimizing rework and optimizing the development process.",
+        "conclusion": "Wireframing plays a crucial role in the design and development of digital products by providing a visual blueprint and structure. Its ability to clarify requirements, facilitate collaboration, and iterate on user experience makes it an indispensable tool for designers and stakeholders. By leveraging wireframing techniques and tools, designers can streamline the design process, enhance user satisfaction, and ultimately deliver successful and user-centered digital products."
+      },
+      "authorID": 3
+    },
+    {
+      "id": 7,
+      "thumbnail": "/assets/images/image7.jpg",
+      "category": "Design",
+      "title": "How Collaboration makes us better designers",
+      "desc": {
+        "introduction": "Collaboration is a key ingredient in the design process, enabling designers to create more impactful and user-centered solutions. By working together with colleagues, clients, and stakeholders, designers can harness the power of diverse perspectives, exchange ideas, and refine their designs. In this blog post, we will explore the ways in which collaboration enhances our abilities as designers and leads to better design outcomes.",
+        "content": "Collaboration plays a vital role in improving our skills and abilities as designers. Working together with colleagues, clients, and other stakeholders brings fresh perspectives, diverse ideas, and valuable feedback that can enhance our design outcomes. Through collaboration, we gain the opportunity to learn from others, expand our knowledge, and refine our design thinking. By actively seeking and incorporating feedback, we can identify blind spots, uncover new insights, and challenge our assumptions, leading to more innovative and effective design solutions. Collaboration also fosters a sense of collective ownership and accountability, as team members share the responsibility for the success of a design project. This shared responsibility encourages open communication, trust, and respect, enabling a collaborative environment where ideas can be freely exchanged and refined. Additionally, collaboration enables us to leverage the expertise and skills of others. We can tap into the diverse skill sets of team members, such as researchers, developers, and marketers, to enrich our designs and ensure their feasibility and viability. Collaboration also promotes empathy and user-centered design. By involving stakeholders and users throughout the design process, we gain deeper insights into their needs, preferences, and pain points, enabling us to create more meaningful and impactful designs. Ultimately, collaboration makes us better designers by challenging us, expanding our perspectives, fostering innovation, and driving the creation of exceptional design solutions.",
+        "conclusion": "Collaboration is a catalyst for better design outcomes. Through collaboration, designers gain access to multiple perspectives, enhance their problem-solving abilities, achieve user-centered design, and foster continuous learning and growth. By embracing collaboration as a fundamental part of the design process, designers can unlock their full creative potential, deliver exceptional experiences, and make a positive impact in the world of design."
+      },
+      "authorID": 3
+    },
+    {
+      "id": 8,
+      "thumbnail": "/assets/images/image8.jpg",
+      "category": "Product",
+      "title": "Our top 10 Javascript frameworks to use",
+      "desc": {
+        "introduction": "JavaScript frameworks have revolutionized web development, providing developers with powerful tools and libraries to build robust and dynamic applications. With numerous options available, choosing the right framework can be a daunting task. In this blog post, we present our top 10 JavaScript frameworks that are widely adopted and offer exceptional features and community support.",
+        "content": "JavaScript frameworks have revolutionized web development, providing powerful tools and libraries that simplify and accelerate the creation of robust and interactive applications. Here are our top 10 JavaScript frameworks that we recommend: 1. React: A popular framework for building user interfaces, known for its component-based architecture and virtual DOM. 2. Angular: A comprehensive framework by Google that offers a complete solution for building scalable and feature-rich applications. 3. Vue.js: A progressive framework that focuses on simplicity and ease of integration, making it a great choice for both small and large-scale projects. 4. Ember.js: A framework that emphasizes convention over configuration, providing a structured approach to building ambitious web applications. 5. Express.js: A minimal and flexible framework for building server-side applications and APIs using Node.js. 6. Next.js: A framework built on top of React that enables server-side rendering and efficient routing, ideal for building fast and SEO-friendly web applications. 7. VuePress: A framework specifically designed for building documentation websites, offering a smooth writing and publishing experience. 8. Meteor.js: A full-stack framework that allows for rapid prototyping and real-time applications, thanks to its integration of front-end and back-end development. 9. Svelte: A lightweight framework that compiles components into highly efficient JavaScript code, resulting in fast and performant web applications. 10. D3.js: A powerful framework for data visualization, providing a wide range of tools and techniques for creating stunning charts and graphs. These JavaScript frameworks offer a wealth of features and capabilities, empowering developers to build dynamic and sophisticated web applications with ease. Depending on your project requirements and preferences, you can choose the framework that best suits your needs and leverage its strengths to create exceptional user experiences.",
+        "conclusion": "Choosing the right JavaScript framework is essential for developing high-quality applications. The frameworks mentioned in this post, including React.js, Angular, Vue.js, Express.js, Ember.js, Meteor.js, D3.js, Next.js, Svelte, and Nest.js, have gained significant popularity and provide developers with the necessary tools and features tobuild modern and performant applications. Depending on your specific project requirements and preferences, you can explore these frameworks and leverage their strengths to create outstanding web applications."
+      },
+      "authorID": 3
+    },
+    {
+      "id": 9,
+      "thumbnail": "/assets/images/image9.jpg",
+      "category": "Customer Success",
+      "title": "PodCast: Creating better CX Community",
+      "desc": {
+        "introduction": "Creating a strong and supportive community is essential for fostering growth, collaboration, and innovation in the field of customer experience (CX). In this podcast episode, we delve into the importance of building a CX community and share insights, strategies, and success stories from industry experts and thought leaders. Join us as we explore how to create a better CX community and elevate the practice of customer experience.",
+        "content": "In this podcast episode, we explore the importance of building a strong and supportive CX (Customer Experience) community. A thriving CX community fosters collaboration, knowledge sharing, and professional growth among its members. By connecting with like-minded individuals and industry experts, CX professionals can gain valuable insights, stay up-to-date with industry trends, and exchange best practices. The podcast features interviews with experienced CX leaders who share their experiences, challenges, and success stories in building and nurturing CX communities. They highlight the benefits of participation, such as networking opportunities, access to resources, and the ability to learn from others. Additionally, the podcast discusses strategies for creating a welcoming and inclusive CX community, where individuals from diverse backgrounds and industries can come together to exchange ideas and support one another. It emphasizes the role of online platforms, forums, conferences, and local meetups in facilitating community engagement and knowledge sharing. By fostering a strong CX community, organizations can drive innovation, improve customer satisfaction, and elevate the overall quality of customer experiences. This podcast episode serves as a valuable resource for CX professionals, providing insights and practical tips for creating and nurturing a vibrant CX community that fosters collaboration, learning, and professional development.",
+        "conclusion": "A thriving CX community is instrumental in advancing the practice of customer experience and driving positive impact. By creating a supportive environment, encouraging collaboration and learning, sharing success stories and insights, and collaborating with industry experts, we can cultivate a stronger and more vibrant CX community. Together, let's build a community that inspires, empowers, and elevates the customer experience profession."
+      },
+      "authorID": 3
+    }
+
+  ]
+  
 }
